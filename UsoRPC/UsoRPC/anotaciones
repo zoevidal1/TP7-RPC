@@ -1,0 +1,9 @@
+
+alumno@lisi-01:~$ gcc -o cliente cliente.c calcular_clnt.c calcular_xdr.c
+alumno@lisi-01:~$ gcc -o servidor servidor.c calcular_svc.c calcular_xdr.c
+
+(Para crear ejecutable)
+
+Para ejecutar:
+./servidor
+./cliente localhost
